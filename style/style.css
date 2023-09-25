@@ -1,0 +1,44 @@
+body{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(59, 55, 55);
+    background-image: url(/asset/img-101.jpg);
+    background-size: auto 950px;
+    margin-bottom: 0;
+    
+}
+
+img{
+    position: absolute; top: 20px; left: 200px;
+    width: 400px; 
+    border-radius: 4px;
+}
+
+.name{
+    outline:none;
+    cursor:pointer;
+    position: absolute; top: 300px; left: 275px;
+    margin-top: 50px;
+    color: white;
+    }
+    
+.description{
+    display:none;
+    padding: 20px;
+    width: 600px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: rgb(234, 240, 241);
+    border-style: solid;
+    border-color: rgb(46, 174, 233);
+    position: relative; top: 370px; left: 20px;
+    }
+    
+.name:focus + .description{
+    display:block;
+    }
+
+
+
